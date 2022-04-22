@@ -1,0 +1,135 @@
+
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../public/image/homebanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0.5rem;
+}
+
+.masthead1{
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../public/image/webbanner2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.masthead2{
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../public/image/services.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.masthead3{
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../public/image/portfolio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.text-about{
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.text-p{
+  font-size: 1.1rem;
+}
+.text-section{
+  font-size: 2rem;
+}
+    
+
+
+
+
+code {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin: 0 0.3rem;
+}
+.bg-dark{
+  background-color: black !important;
+}
+.btn-outline-secondary{
+
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+  color: black;
+  
+
+
+}
+.footer-logo{
+ 
+  width: 4rem;
+}
+.footers{
+  margin-top: 5rem;
+}
+.cards-section{
+  margin-top: 4rem;
+}
+
+
+h5 {
+  width: 95%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  /* margin: 10px 0 20px;  */
+  margin-top: 5rem !important;
+} 
+
+h5 span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
+
+
+/* About US */
+
+.jumbotron1 {
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 2px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imagesection{
+  margin-bottom: 5rem;
+}
