@@ -25,8 +25,6 @@ export default function Home() {
 	 
 	  <Menu/>
 
-
-
     
 
     <header className="masthead">
@@ -38,9 +36,6 @@ export default function Home() {
     </div>
   </div>
 </header>
-
-
-
 
 
 	  <div className="text-center">
@@ -88,7 +83,7 @@ export default function Home() {
         <div className="card-body">
           <h6 className="card-title text-center">bgX</h6>
           <p className="card-text text-center">Web Design </p>
-          <a href='/service' className='learn-more'> <button type="button" className="btn btn-outline-secondary"> Learn More </button></a>
+          <Link href='/service' className='learn-more'> <button type="button" className="btn btn-outline-secondary"> Learn More </button></Link>
         </div>
       </div>
     </div>
@@ -97,48 +92,12 @@ export default function Home() {
 
 
 
-
-
-
-
-
-
 <Footer/>
 
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
-
-     
-
+    
     </div>
   
   )
