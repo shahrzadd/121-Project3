@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 import Menu from "../component/header";
@@ -67,7 +68,7 @@ export default function Home() {
         <div className="card-body">
           <h6 className="card-title ml-5">The Healthy Home</h6>
           <p className="card-text mr-4 text-center">Web Design </p>
-          <a href='/about' className='learn-more'> <button type="button" className="btn btn-outline-secondary"> Learn More </button></a>
+          <Link href='/about' className='learn-more'> <button type="button" className="btn btn-outline-secondary"> Learn More </button></Link>
         </div>
       </div>
     </div>
@@ -77,7 +78,7 @@ export default function Home() {
         <div className="card-body">
           <h6 className="card-title  text-center">Get Set Pet</h6>
           <p className="card-text text-center">Web Design </p>
-          <a href='/portfolio' className='learn-more'> <button type="button" className="btn btn-outline-secondary"> Learn More </button></a>
+          <Link href='/portfolio' className='learn-more'> <button type="button" className="btn btn-outline-secondary"> Learn More </button></Link>
         </div>
       </div>
     </div>
