@@ -63,7 +63,7 @@ export default function Home() {
   <div className='row mt-5 '>
     <div className='col-sm-12 col-md-4  '>
       <div className="card" style={{width:"18rem"}}>
-        <img className="card-img-top" style={{height:"11rem"}} src="image/image1.png" alt="Card image cap" />
+        <Image className="card-img-top" style={{height:"11rem"}} src="image/image1.png" alt="Card image cap" />
         <div className="card-body">
           <h6 className="card-title ml-5">The Healthy Home</h6>
           <p className="card-text mr-4 text-center">Web Design </p>
@@ -73,7 +73,7 @@ export default function Home() {
     </div>
     <div className='col-sm-12 col-md-4 '>
       <div className="card" style={{width:"18rem"}}>
-        <img className="card-img-top" style={{height:"11rem"}} src="image/image2.png" alt="Card image cap" />
+        <Image className="card-img-top" style={{height:"11rem"}} src="image/image2.png" alt="Card image cap" />
         <div className="card-body">
           <h6 className="card-title  text-center">Get Set Pet</h6>
           <p className="card-text text-center">Web Design </p>
@@ -83,7 +83,7 @@ export default function Home() {
     </div>
     <div className='col-sm-12 col-md-4 '>
       <div className="card" style={{width:"18rem"}}>
-        <img className="card-img-top" style={{height:"11rem"}} src="image/image3.png" alt="Card image cap" />
+        <Image className="card-img-top" style={{height:"11rem"}} src="image/image3.png" alt="Card image cap" />
         <div className="card-body">
           <h6 className="card-title text-center">bgX</h6>
           <p className="card-text text-center">Web Design </p>
